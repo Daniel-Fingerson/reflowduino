@@ -2,7 +2,7 @@ baseHeight =5;
 
 wallHeight = 45;
 
-baseWidth = 60;
+baseWidth = 61;
 
 baseLength = 150;
 
@@ -23,15 +23,25 @@ cube([baseLength,baseWidth+shft,baseHeight],center=false);
 
 translate([6,shft,0]) {fourForty();}
 
-translate([46.5,shft,0]) {fourForty();}
 
-translate([90,16+shft,0]) {fourForty();}
+translate([46,shft,0]) {fourForty();}
 
-translate([90,42+shft,0]) {fourForty();}
 
-translate([141,shft,0]) {fourForty();}
+translate([88,12.5+shft,0]) {fourForty();}
 
-translate([142,48+shft,0]) {fourForty();}
+
+translate([88,40.5+shft,0]) {fourForty();}
+
+
+translate([139,2.5,0]) {fourForty();}
+
+
+
+
+translate([140,46+shft,0]) {fourForty();}
+
+
+
 
 }
 
@@ -50,7 +60,8 @@ cube([30,baseHeight,23],center=false);
 }
 
 translate([50,baseHeight+baseWidth,7+baseHeight]){
-cube([25,baseHeight,15],center=false);
+
+cube([23.5,baseHeight,15],center=false);
 }
 
 }
@@ -65,8 +76,8 @@ translate([-baseHeight+baseLength,-baseHeight,0]){
 cube([baseHeight,baseWidth+3*baseHeight,wallHeight],center=false);
 }
 
-translate([-baseHeight+baseLength,-baseHeight+8+shft,gapz]){
-cube([baseHeight,12,gapz],center=false);
+translate([-baseHeight+baseLength,-baseHeight+8.7+shft,6.5]){
+cube([baseHeight,10,gapz],center=false);
 }
 
 }
