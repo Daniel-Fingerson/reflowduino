@@ -1,3 +1,4 @@
+// Updated version that has thru-holes and micro USB ports in the correct position: the box is slightly larger to allow room for the switch.
 baseHeight =5;
 
 wallHeight = 45;
